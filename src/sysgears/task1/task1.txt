@@ -1,0 +1,7 @@
+Task: Calculate the square root of a given natural number n rounded down to the nearest integer without using
+    functions sqrt(n) and n^0.5.
+    For example: for number 14 the result will be number 3, for number 28 - number 5.
+
+Input data: Any natural number n.
+
+Output data: Square root of a given number, rounded down to the nearest integer number.
