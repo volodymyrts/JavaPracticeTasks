@@ -1,9 +1,9 @@
 package intro.practice;
 import java.util.Scanner;
 
-// Task:
 // Write a program that reads a three digit number, calculates the new number
 // by reversing its digits, and outputs the new number.
+
 public class ReverseThreeDigitNumber {
     public static void main(String[] args) {
         int reversed_number = 0;
