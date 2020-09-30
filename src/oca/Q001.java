@@ -2,20 +2,6 @@ package oca;
 
 // What is the output of the following code?
 
-// A: 120
-//    121
-//    127
-//
-// B: 120
-//
-// C: default
-//    2
-//
-// D: 120
-//    121
-//    127
-//    default
-
 public class Q001 {
 
     public static void main(String args[]) {
@@ -37,3 +23,19 @@ public class Q001 {
         }
     }
 }
+
+// Answers:
+//
+// A: 120
+//    121
+//    127
+//
+// B: 120
+//
+// C: default
+//    2
+//
+// D: 120
+//    121
+//    127
+//    default
