@@ -1,0 +1,14 @@
+1) What is the difference between List and ArrayList?
+
+- List is a child interface of a Collection interface, which is the root interface in collection hierarchy.
+- List is the ordered collection of objects where duplicated values can be stored.
+- List allows positional access and insertion of elements.
+- Instances of List can be created by implementing various classes.
+
+- List is interface and ArrayList is a Class that implements List interface. (List interface is implemented
+  by the classes of ArrayList, LinkedList, Vector and Stack.)
+- ArrayList is a part of collection framework and is present in java.util package.
+- It provides us with dynamic arrays in Java. Similar to a List, the size of the ArrayList is increased
+  automatically if the collection grows or shrinks if the objects are removed from the collection.
+- ArrayList allows us to randomly access the list.
+- ArrayList can not be used for primitive types, like int, char, etc. We need a wrapper class for such cases.
