@@ -3,7 +3,7 @@
 - List is a child interface of a Collection interface, which is the root interface in collection hierarchy.
 - List is the ordered collection of objects where duplicated values can be stored.
 - List allows positional access and insertion of elements.
-- Instances of List can be created by implementing various classes.
+- Instance of List can be created by implementing various classes, but we can't create an instance of List.
 
 - List is interface and ArrayList is a Class that implements List interface. (List interface is implemented
   by the classes of ArrayList, LinkedList, Vector and Stack.)
