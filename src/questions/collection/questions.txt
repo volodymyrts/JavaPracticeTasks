@@ -12,3 +12,17 @@
   automatically if the collection grows or shrinks if the objects are removed from the collection.
 - ArrayList allows us to randomly access the list.
 - ArrayList can not be used for primitive types, like int, char, etc. We need a wrapper class for such cases.
+
+2) What is the difference between list and set?
+
+- List can contain duplicate elements. Set contains only unique elements.
+
+3) What is the difference between HashSet and TreeSet?
+
+- HashSet maintains no order, TreeSet maintains ascending order.
+
+4) What is the difference between Set and Map?
+
+- Set contains values, Map contains key and value.
+
+
