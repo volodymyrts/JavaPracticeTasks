@@ -1,6 +1,4 @@
-package sysgears.task1;
-
-import java.util.Random;
+package algorythms.task1;
 
 public class SqrtAlternativeMethodRunner {
 

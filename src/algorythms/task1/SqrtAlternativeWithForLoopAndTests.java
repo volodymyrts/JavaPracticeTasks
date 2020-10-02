@@ -1,4 +1,4 @@
-package sysgears.task1;
+package algorythms.task1;
 
 public class SqrtAlternativeWithForLoopAndTests {
 
