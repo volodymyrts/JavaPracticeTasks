@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class BlockWeightOptimized {
 
-    private static HashMap<String, Double> map = new HashMap<>();
+    private static HashMap<Integer, Double> map = new HashMap<>();
 
     private static void assertThat(final int row, final int pos, final double expectedResult) throws Exception {
         double actualResult = W(row, pos);
@@ -19,7 +19,7 @@ public class BlockWeightOptimized {
 
     public static double W(final int row, final int pos) {
         double pressure;
-        String mapKey = "" + row + pos;
+        Integer mapKey = Integer.valueOf("" + row + pos);
 
         if (map.containsKey(mapKey)) {
             return map.get(mapKey);
