@@ -7,8 +7,8 @@ public class EagerInitializedSingletonRunner {
         EagerInitializedSingleton singleton1 = EagerInitializedSingleton.getInstance();
         EagerInitializedSingleton singleton2 = EagerInitializedSingleton.getInstance();
 
-        System.out.println(singleton1 == singleton2);
-        System.out.println(singleton1.equals(singleton2));
+        System.out.println(singleton1 == singleton2);       // true
+        System.out.println(singleton1.equals(singleton2));  // true
 
     }
 
